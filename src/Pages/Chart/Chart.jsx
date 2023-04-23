@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { sortData } from "./utils";
 import InfoBox from "./InfoCard";
 import Table from "./Table";
@@ -32,7 +31,6 @@ const Chart = () => {
   const [countryInfo, setCountryInfo] = useState({});
   const [tableData, setTableData] = useState([]);
   const [content, setContent] = useState("");
-  const [pos, setPos] = useState({});
 
   useEffect(() => {
     fetch("https://disease.sh/v3/covid-19/all")

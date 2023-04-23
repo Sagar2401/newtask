@@ -1,15 +1,13 @@
-import { useRef, useEffect, useState } from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import { useEffect, useState } from "react";
 import { Dialog } from "@mui/material";
 import DialogTitle from "@mui/material/DialogTitle";
 import DialogContent from "@mui/material/DialogContent";
-import DialogContentText from "@mui/material/DialogContentText";
 import DialogActions from "@mui/material/DialogActions";
 import Button from "@mui/material/Button";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import TextField from "@mui/material/TextField";
 import Radio from "@mui/material/Radio";
-import RadioGroup from "@mui/material/RadioGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
 import { useForm } from "react-hook-form";
 import { v4 as uuidv4 } from "uuid";
 import { addContact, updateContact } from "../../store/contactSlice";
