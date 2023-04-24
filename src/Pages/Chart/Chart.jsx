@@ -178,7 +178,7 @@ const Chart = () => {
           </ComposableMap>
         </>
       </div>
-      <Card className="app__right">
+      <Card className="app__right"  sx={{height:"calc(100vh - 120px)",overflowY:"auto"}}>
         <CardContent>
           <h3>Live case by Country</h3>
           <Table countries={tableData} />
