@@ -15,15 +15,15 @@ code {
 
 /**------> THUMB <------**/
 body ::-webkit-scrollbar-thumb {
-  background: var(--lightgray-font-color);
-  border-radius: 5px;
-  width: 1px;
-  height: 20px;
+  background: gray !important;
+  border-radius: 5px !important;
+  width: 1px !important;
+  height: 20px !important;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--lightgray-font-color);
-  border-radius: 5px;
-  width: 2px;
-  height: 20px;
+  background: gray !important;
+  border-radius: 5px !important;
+  width: 2px !important;
+  height: 20px !important;
 }
