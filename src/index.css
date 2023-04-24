@@ -14,3 +14,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/**------> THUMB <------**/
+body ::-webkit-scrollbar-thumb {
+  background: var(--lightgray-font-color);
+  border-radius: 5px;
+  width: 1px;
+  height: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--lightgray-font-color);
+  border-radius: 5px;
+  width: 2px;
+  height: 20px;
+}
